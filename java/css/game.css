@@ -1,0 +1,80 @@
+#word, #translation{
+	display: block;
+	margin-bottom: 10px;
+	position: relative;
+	font-size: 1.5em;
+	border-radius: 12px;
+	padding-left: 10px;
+	
+
+}
+
+#btn, #btnShuffle, #btnReset {
+	display: inline-block;
+	font-size: 1.5em;
+	border-radius: 12px;
+
+
+}
+
+.block{
+	width: 400px;
+	height: 370px;
+	border: 15px #6b989f inset;
+	display: inline-block;
+	border-radius: 7px;
+
+}
+
+#shuffle > .cardOne{
+	width: 80px;
+	height: 100px;
+	border: 1px solid red;
+	color: black;
+	font-size: 14px;
+	margin: 5px;
+	text-align: center;
+	line-height: 50px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: lightyellow;
+	border-radius: 10%;
+}
+
+.cardTwo{
+	width: 80px;
+	height: 100px;
+	border: 1px solid red;
+	color: black;
+	font-size: 14px;
+	margin: 5px;
+	text-align: center;
+	line-height: 50px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: lightgray;
+	border-radius: 10%;
+}
+
+.wrapperInput{
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.wrapperGame{
+	display: block;
+	width: 850px;
+	margin: 0 auto;
+	padding-top: 150px;
+	position: relative;
+}
+
+.gameDescription{
+	width: 370px;
+	color: lightgray;
+	background-color: #b72f95;
+	margin-top: 10px;
+	margin-bottom: 10px; 
+	box-shadow: 3px 4px 18px 0px #b72f95;
+}

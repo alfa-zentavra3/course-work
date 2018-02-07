@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/game.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+</script>
+</head>
+<body>
+<div class="wrapperInput">
+<input type="word" name="word" id="word" >
+<input type="translation" name="translation" id="translation">
+<button id="btn">Done</button>
+<button id="btnShuffle">Shuffle</button>
+<button id="btnReset">Reset</button>
+<div class="gameDescription">Type a word in the field "word" and it's translation in the field "translation". Press Done and then Shuffle, so you will see your words in random order. Now try to match them. If everything is right, all your cards will be green. Press Reset to clear the box with words. </div>
+</div>
+<div class="block" id="shuffle"></div>
+	<script src="js/game.js"></script>
+</body>
+</html>
